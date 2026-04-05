@@ -2,7 +2,7 @@
 import sys
 
 input = sys.stdin.readline
-
+#set_union할때 시간 더 줄일 수 있었음
 
 def find_parent(x):
     if parent[x] < 0:
